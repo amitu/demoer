@@ -1,5 +1,5 @@
-@import url("http://ajax.googleapis.com/ajax/libs/dojo/1.9.0/dojox/highlight/resources/highlight.css");
-@import url("http://ajax.googleapis.com/ajax/libs/dojo/1.9.0/dojox/highlight/resources/pygments/default.css");
+@import url("../dojox/highlight/resources/highlight.css");
+@import url("../dojox/highlight/resources/pygments/default.css");
 
 .ViewDemoWidget {
     width: 100%;
