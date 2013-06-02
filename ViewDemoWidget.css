@@ -1,0 +1,46 @@
+@import url("http://ajax.googleapis.com/ajax/libs/dojo/1.9.0/dojox/highlight/resources/highlight.css");
+@import url("http://ajax.googleapis.com/ajax/libs/dojo/1.9.0/dojox/highlight/resources/pygments/default.css");
+
+.ViewDemoWidget {
+    width: 100%;
+}
+
+.ViewDemoWidget_sidebar {
+    width: 200px;
+    float: left;
+}
+
+.ViewDemoWidget_main {
+    width: 100%;
+    /*background-color: #eee;*/
+}
+
+.ViewDemoWidget iframe {
+    border: 0px;
+}
+
+.ViewDemoWidget_clear {
+    clear: both;
+}
+
+.ViewDemoWidget ul {
+    margin-top: 0px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+
+.ViewDemoWidget li {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.ViewDemoWidget li:hover {
+    text-decoration: underline;
+}
+
+.ViewDemoWidget_active {
+    color: green;
+    background-color: #eee;
+}
+
