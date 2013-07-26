@@ -1,17 +1,26 @@
-@import url("../dojox/highlight/resources/highlight.css");
-@import url("../dojox/highlight/resources/pygments/default.css");
+/*
+@import url("http://ajax.googleapis.com/ajax/libs/dojo/1.9.0/dojox/highlight/resources/highlight.css");
+@import url("http://ajax.googleapis.com/ajax/libs/dojo/1.9.0/dojox/highlight/resources/pygments/default.css");
+*/
 
 .ViewDemoWidget {
-    width: 100%;
+    height: 147px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 23px;
 }
 
 .ViewDemoWidget_sidebar {
-    width: 200px;
+    width: 25%;
     float: left;
 }
 
 .ViewDemoWidget_main {
-    width: 100%;
+    width: 75%;
+    float: left;
+    overflow: scroll;
+    height: 142px;
+    padding-top: 0px;
     /*background-color: #eee;*/
 }
 
